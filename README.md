@@ -6,17 +6,17 @@ The script logs into Internshala using credentials (email and password) that are
 <h4>2.Navigating the Profile:</h4>
 
 After logging in, the script navigates to the user profile and retrieves the URLs for various profile options (like education, training, work samples).
-<h4>Filling Out Profile Information:</h4>
+<h4>3.Filling Out Profile Information:</h4>
 
 It then fills out various sections of the profile:
 Graduation Details: It inputs details about the user's college, degree, performance, etc.
 Training/Experience: Adds training or experience details.
 Work Samples: It inputs work sample links (e.g., LeetCode profile).
 These details are extracted from a data.js file, which contains an array of data objects (like "College", "Degree", "Training", etc.).
-<h4>Downloading Resume (Optional):</h4>
+<h4>4.Downloading Resume (Optional):</h4>
 
 The script also includes an option to download the resume by clicking the appropriate button on the profile page.
-<h4>Applying for Internships:</h4>
+<h4>5.Applying for Internships:</h4>
 
 The script goes to the Internshala Summer Internship Fair page and grabs the URLs of internship listings.
 It loops through the internship listings, visiting each one and clicking the "Apply" button to submit applications.
