@@ -1,6 +1,6 @@
 # Internshala-Automation
-<h4>Script Overview</h4>
-  <h6>Login:</h6>
+<h3>Script Overview</h3>
+  <h4>Login:</h4>
 
 The script logs into Internshala using credentials (email and password) that are stored in a secret.js file. It simulates typing the email and password into the login form and clicking the login button.
 Navigating the Profile:
@@ -21,7 +21,7 @@ Applying for Internships:
 The script goes to the Internshala Summer Internship Fair page and grabs the URLs of internship listings.
 It loops through the internship listings, visiting each one and clicking the "Apply" button to submit applications.
 Main Functions Breakdown:
-randomDelay(min, max): A helper function to introduce random delays between actions, mimicking human behavior.
+<bold>randomDelay(min, max): A helper function to introduce random delays between actions, mimicking human behavior.
 
 graduation(data): This function fills in the graduation-related fields on the profile page.
 
